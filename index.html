@@ -29,6 +29,8 @@
         background-color: white;
         margin-top: -2px;
         width: 100%;
+      
+
 
 
     }
@@ -36,6 +38,11 @@
     ul .nav-a2 {
         padding: 0px;
         margin-left: -80px;
+        
+    }
+    .nav-a2{
+        display: flex;
+        flex-direction: row;
     }
 
     .nav-a ul {
@@ -333,6 +340,26 @@
         position: sticky;
         top: 115px;
     }
+   
+    .x{
+        display: flex;
+        margin-left: -150px;
+    }
+    .ser{
+        margin-top: 10px;
+        width: 75%;
+    }
+    .order{
+       width: 18px;
+       height: 18px;
+       justify-content: center;
+       
+    }
+   .v{
+    width: 30px;
+    display: flex;
+   }
+    
 </style>
 
 <body>
@@ -361,9 +388,9 @@
                     <div class="name"><img class="cart" src="headerCart.svg" alt="">
                         <div class="acc">Cart</div>
                     </div>
-                    <div class="name"><img style="max-height: 30px;" class="order" src="icon-track-order-desktop.svg"
+                    <div class="name"><img style="max-width: 50px;" class="order" src="icon-track-order-desktop.svg"
                             alt="">
-                        <div class="acc">Track Order</div>
+                        <div class="v">Track</div> <div class="v">Order</div>
                     </div>
                 </div>
             </div>
@@ -377,7 +404,7 @@
             </ul>-->
            <div>
                 <div class="z">
-               <ul> <li>MEN</li>
+               <ul class="x" > <li>MEN</li>
                 <li>WOMEN</li>
                 <li>SMART WATCHES</li>
                 <li>PREMIUM WATCHES</li>
